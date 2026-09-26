@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    font-family: montserrat;
+}
+.biggest{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.the-style{
+    text-decoration: underline;
+    margin-top: 5px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table{
+            border-spacing: 10px;
+            margin: auto;
+            border-collapse: separate;
+            border-spacing: 10px;
+            width: 100%;
+            max-width: 1400px;
+        }
+        
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+        width: 100px;
+        height: 140px;
+        object-fit: cover;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookstore</title>
+</head>
+<body style="font-family: 'Comic Sans MS'; text-align: center;">
+    <h1 style="font-size: 25px;">Welcome to my <mark>STORE</mark></h1>
+    <p style="font-size: 13px; width: 90%; margin: auto; margin-bottom: 30px;">
+        Fill out our quick <b>questionaire</b> and <b>get a custom-build </b>
+        package of <i>wonder</i> and <i>delight</i> ,hand-selected with love by Content Booksellers.
+        We'll pack it all up for you and ship anywhere in the US via USPS Priority
+        Mail, or you can pick-up in-store! The questionnaire should take less than 2 minutes to complete
+        , and when you submit the form, you'll be linked back here to the Content webstore, where you can pay for your bundle
+        (or you can just leave this tab open to complete your purchase).Please remember that sales tax will be added to your purchase as 
+        needed, along with any add-ons you select, like greeting cards.We cant't wait to send you a bundle of treats from the bookstore!
+    </p>
+
+    <table border="1">
+        <thead>
+            <th>Book_id</th>
+            <th>Book's Title</th>
+            <th>Book's cover</th>
+            <th>Price</th>
+            <th>Amount_Stock</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Animal Farm</td>
+                <td><img src="../image/animal_farm.jpg" alt="Book" style="width: 80px;height: 120px;box-shadow: 1px 1px 2px gray;"></td>
+                <td>12.50$</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>The World Without You</td>
+                <td><img src="../image/world_wo_u.jpg" alt="book" style="width: 80px;height: 120px;box-shadow: 1px 1px 2px gray;"></td>
+                <td>20.00$</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Two Sided</td>
+                <td><img src="../image/two_sided.jpg" alt="book" style="width: 80px;height: 120px;box-shadow: 1px 1px 2px gray;"></td>
+                <td>25.00$</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Love Fury</td>
+                <td><img src="../image/love_fury.jpg" alt="book" style="width: 80px;height: 120px;box-shadow: 1px 1px 2px gray;"></td>
+                <td>25.00$</td>
+                <td>2</td>
+            </tr>
+        
+        </tbody>
+        <tfoot>
+           <td>
+            <ol style="font-size:12px;padding-left: 20px;">
+                <li>Book id 1</li>
+                <li>Book id 2</li>
+                <li>Book id 3</li>
+                <li>Book id 4</li>
+            </ol>
+           </td> 
+           <td style="font-size: 12px;text-align: left;padding-left: 20px;">
+            <ul>
+                <li>Animal Farm</li>
+                <li>The World Without You</li>
+                <li>Two Sided</li>
+                <li>Love Fury</li>
+            </ul>
+        </td>
+        <td style="font-size: 12px;">none</td>
+        <td>
+            <ol style="font-size: 12px;text-align:left;padding-left: 20px;">
+                <li>12.50$</li>
+                <li>20.00$</li>
+                <li>25.00$</li>
+                <li>25.00$</li>
+            </ol>
+        </td>
+        <td style="font-size: 12px;text-align: left;padding-left: 20px;">
+            <dl>
+                <dt>Animal Farm</dt>
+                <dd style="margin-left: 10px;">- Have left 10 more in stock</dd>
+                <dt>The World Without You</dt>
+                <dd style="margin-left: 10px;">- Have left 5 more in stock</dd>
+                <dt>Two sided</dt>
+                <dd style="margin-left: 10px;">- Have left 2 more in stock</dd>
+            </dl>
+        </td>
+        
+        
+        </tfoot>
+    </table>
+</body>
+</html>
